@@ -10,7 +10,7 @@
 
 
 body{
-    background-color: rgba(202, 25, 25, 0);
+    background-color: rgba(94, 46, 46, 0);
 }
 
 .font-open-sans{
@@ -122,7 +122,6 @@ margin-bottom: 30px;
 margin-right: 30px;
 
 }
-
 .btn1{
     display: flex;
     gap: 5px ;
@@ -135,6 +134,129 @@ margin-right: 30px;
     background-size: cover;
 }
 .banner_content{
-    padding-left: 120px;
+    padding-left: 80px;
+
+
+}
+#about{
+    padding-top: 130px;
+    padding-bottom: 80px;
+    
+
+    
+}
+.about_info{
+    padding-bottom: 0%;
+}
+
+.about_content{
+background-color: #FFF8F3;
+width: 71%;
+max-width: 1000 px;
+margin: 0 auto;
+text-align: center;
+padding: 131px 156px ;
+}
+
+.section_heading h2{
+
+    font-size: 35px;
+    font-weight: 600px ;
+    margin-bottom: 30px;
+     color: #181818;
+}
+
+.section_heading p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #757575
+    line-height
+    style="line-height: 30px;"
+    
+}
+
+
+#about .about_content .about_info{
+    background-color: #ff0037ba;
+ 
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+
+
+/* ===== Skills Section ===== */
+.skills {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.skills_content {
+    width: 90%;
+    max-width: 1200px;
     margin: auto;
+}
+
+/* Heading */
+.section_heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section_heading h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.section_heading p {
+    font-size: 16px;
+    color: #555;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+/* Skill Box */
+.skill_box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+/* Skill Card */
+.skill_card {
+    background-color: #ffffff;
+    padding: 30px 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(237, 4, 4, 0.223);
+    transition: all 0.3s ease;
+}
+
+.skill_card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* Icon */
+.skill_card img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+/* Title */
+.skill_card h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+/* Text */
+.skill_card p {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.6;
 }
